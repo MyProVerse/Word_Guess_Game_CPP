@@ -1,36 +1,25 @@
-# Word Guess Hangman Game in C++
+# Word Guessing Game (Hangman) in C++
 
-A simple console-based Hangman game implementation with two difficulty levels. Developed by Ali Zaman (MyProVerse).
+A console-based word guessing game implementation with two difficulty modes. Developed by **Ali Zaman** ([MyProVerse](https://github.com/MyProVerse)).
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ali_Zaman-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ali-zaman-web-developer/)
+[![LinkedIn](https://img.shields.io/badge/Connect-Ali_Zaman-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ali-zaman-web-developer/)
 
-## Description
-Guess the hidden animal name ("ELEPHANT") within 5 attempts. Features:
-- Easy/Hard mode selection
-- Attempt counter
-- Win/loss tracking
-- Replay functionality
+## 📁 File Info
+- **Filename:** `word-guessing-game.cpp`
+- **Word to Guess:** "ELEPHANT" (hardcoded)
+- **Requires:** C++11 or newer
 
-## Features
-🎮 **Game Modes**
-- `Easy`: Shows "ELEP*AN*" as hint
-- `Hard`: Shows "ELE**AN*" as hint
+## 🎮 Features
+- **Difficulty Modes**
+  - Easy (`ELEP*AN*` hint)
+  - Hard (`ELE**AN*` hint)
+- **5 Attempts** per round
+- **Win/Loss Tracking**
+  - Total wins/losses displayed
+  - Reveals word if all attempts fail
+- **Replay System** (continue without restarting)
 
-📊 **Statistics**
-- Tracks total wins/losses
-- Shows final word if all attempts fail
-
-🔄 **Replay System**
-- Continue playing without restarting
-- Exit with 'N/n' input
-
-## Getting Started
-
-### Prerequisites
-- C++ compiler (g++/Visual Studio)
-- Windows OS (for `system("pause")` compatibility)
-
-### Installation
-1. Clone repository:
-```bash
-git clone https://github.com/MyProVerse/Hangman-CPP.git
+## 🛠️ Installation
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/MyProVerse/word-guessing-game.git
