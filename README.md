@@ -1,4 +1,4 @@
-# Hangman Game in C++
+# Word Guess Hangman Game in C++
 
 A simple console-based Hangman game implementation with two difficulty levels. Developed by Ali Zaman (MyProVerse).
 
